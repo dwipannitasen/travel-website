@@ -1,0 +1,497 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <!--Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--FontAwsome Link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+<!-- NAVIGATION SECTION STARTS HERE -->
+  <section id="navigation">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b> <span class="heading">P</span>aradise <span>T</span>ravels</b> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link "  href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#why-us">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main-attraction">Main-Attractions</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#packages-section">Bookings</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#our-associates">Team</a>
+              </li>
+            </ul>
+            <a class="nav-link login-icon" href="#why-us" ><i class="far fa-user-circle "></i></a>
+          </div>
+        </div>
+      </nav>
+
+    </section>
+
+<!-- NAVIGATION SECTION ENDS HERE -->
+
+<!-- HOME SECTION STARTS HERE -->
+
+<section class="home" id="home">
+
+  <div class="text">
+    <h2>Enjoy </h2> 
+    <h3>the Breathtaking </h3>
+    <h4>view of Andaman</h4>
+    <a id="register-form" >Register Now!</a>
+  </div> 
+
+  <div class="video-container">
+      <video src="videos/page3.mp4" id="video-slider" loop autoplay muted></video>
+  </div>
+
+</section>
+<!-- HOME SECTION ENDS HERE -->
+<!-- WHY US SECTION STARTS HERE-->
+
+<section id="why-us">
+  <div class="row">
+    <div class="col-lg-6 why-us">
+      <h1 class="about-heading">Why Us?</h1>
+      <p class="about-body"><b><span class="main">Paradiase Travel</span></b>  is a humann size team of developers and designers devoted to provide the best and useful services. We flaunt the best exotic locations across the island. We arrange everything right here. Hotels, air, rental cars, you name it. Why spend hours, countless phonecalls, and waiting on hold? We do it all in a matter of minutes for a small fee. Travels should be fun, so make it. </p>
+    </div>
+      <div class="col-lg-6  why-us">  
+        <h1 class="about-heading"> Login with us!</h1>
+            <form class="login-form">
+              <input class="input" type="text" placeholder="Email" name="email">
+              <input class="input" type="password" placeholder="Password" name="password">
+              <input type="submit" name="submit" value="Login" class=" btn btn-outline login-btn">
+              <!-- <button class=" btn btn-outline login-btn" type="button"><a href="">Login</a></button> -->
+              
+              <a class="form-link" href="">Forgot Password?</a>
+              <p >Don't have an account? <a id="register-form" class="form-link" href="#">Register Here.</a></p>
+              
+          </form>
+        </div> 
+      </div>    
+  </div>
+</section>
+
+<!-- WHY US SECTION ENDS HERE-->
+<!-- POP-UP REGISTRATION FORM STARTS HERE -->
+
+<div class=popup-bg>
+	<div class=popup-content>
+		<div class="close">+</div>
+		<img src="images/logo-modified.png" alt=".." width=20%>
+		<form action="registration.php" method="post">
+			<input type="text" placeholder="Full name" name="name">
+			<input type="text" placeholder="Email" name="email">
+			<input type="number" placeholder="Mobile Number" name="mobile">
+			
+			<input type="password" placeholder="Password" name="password">
+			<input type="password" placeholder="Confirm Password" name="conpassword">
+      <input type="submit" name="submit" value="submit" class=" btn btn-outline login-btn">
+			<!-- <button class=" btn btn-outline book-btn" type="button"><a href="">Register</a></button> -->
+		</form>
+	</div>
+	
+</div>
+
+
+
+
+<!-- POP-UP REGISTRATION FORM ENDS HERE -->
+<!-- QUOTE SECTION STARTS HERE -->
+
+<section id="quote">
+  <div class="quote">
+    <h2> Explore the most beautiful dive spots in the continent... </h2>
+  </div> 
+
+
+</section>
+
+<!-- QUOTE SECTION ENDS HERE -->
+<!-- SEVICES SECTION STARTS HERE -->
+
+<section id="services">
+  <div class="wrapper">
+ 
+    <div class="cols">
+       <div class="col col-4 col-sm-4 services-div">
+         <div class="container">				
+           <div class="front">					
+               <div class="inner">
+               <span><img class="services-img" src="images/hotel-bookings.jpg" alt=""></span>
+               <p>HOTEL BOOKINGS</p>              
+               </div>
+           </div>
+           <div class="back">
+               <div class="inner">                   
+                 <p>We pride ourselves on delivering the best hotel prices from the largest selection of hotels and resorts, both in India and across the world.</p><br>
+                 
+               </div>
+           </div>
+         </div>
+       </div>
+       <div class="col col-4 col-sm-4 services-div">
+         <div class="container">
+           <div class="front">
+             <div class="inner">
+             <span><img class="services-img" class="services-img" src="images/package-bookings.jpg" alt=""></span>
+             <p>PACKAGE BOOKINGS</p>
+             </div>
+           </div>
+           <div class="back">
+             <div class="inner">
+                 <p>Travel to some of the most exotic destinations of the world with our customized tour packages, which give you an outstanding experience. We also do Group Bookings & MICE. (Incentive & Corporate tours)</p><br>
+                 
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col col-4 col-sm-4 services-div">
+         <div class="container">
+           <div class="front">
+             <div class="inner">
+             <span><img class="services-img" src="images/cruise.jpg" alt=""></span>
+             <p>CRUISE BOOKINGS</p>
+             </div>
+           </div>
+           <div class="back">
+             <div class="inner">
+                 <p>We do worldwide cruise bookings. We help you to find a perfect cruise package and book a dream cruise vacations for best price.</p><br>
+                 
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col col-4 col-sm-4 services-div">
+         <div class="container">
+           <div class="front">
+             <div class="inner">
+             <span><img class="services-img" src="images/flight-bookings.jpg" alt=""></span>
+             <p>FLIGHT BOOKINGS</p>
+             </div>
+           </div>
+           <div class="back">
+             <div class="inner">
+                 <p>We provide you best, time-efficient & cost-effective flight bookings ensuring hassle-free and smooth travelling experience. No Conveyance</p><br>
+                 
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+</section>
+       
+<!-- SEVICES SECTION ENDS HERE -->       
+      
+<!-- QUOTE SECTION STARTS HERE -->
+
+<section id="quote">
+  <div class="quote">
+    <h2>Main ATTRACTIONS</h2>
+  </div> 
+
+</section>
+
+<!-- QUOTE SECTION ENDS HERE -->     
+        
+<!-- MAIN ATTRACTIONS STARTS HERE-->
+<section id="main-attraction"> 
+          <div class="row row-cols-1 row-cols-md-3 g-3 main-attraction">
+              <div class="col ">
+              <div class="card h-70">
+                  <img class="main-attraction-img" src="images/ross island.jpg" class="card-img-top" alt="...">
+                  <div class="card-body main-attraction-body-div">
+                  <h5 class="card-title main-attraction-title">ROSS ISLAND</h5>
+                  <p class="card-text main-attraction-body">A very small destination that comes under the south Andaman district, and is barely 5 Kms from the Water Sports Complex, making it one of easiest inter-island to visit during your trip to Andamans.the Ross Island is now renamed as the "Netaji Shubash Chandra Bose Dweep" by prime minister Narendra Modi in 2018.</p>
+                  </div>
+                  
+              </div>
+              </div>
+              <div class="col">
+              <div class="card h-70">
+                  <img class="main-attraction-img"  src="images/limestone.jpg" class="card-img-top" alt="...">
+                  <div class="card-body main-attraction-body-div">
+                  <h5 class="card-title main-attraction-title">Lime stone cave</h5>
+                  <p class="card-text main-attraction-body"> The beautiful Limestone caves in Andaman are a visual treat to a nature lover. It is formed over millions of years when various deposits of marine life, shells, corals and skeletons undergo a natural compression to form unique shapes within the cave. These in Andaman are highly recommended to be on your Andaman itinerary.</p>
+                  </div>
+                  
+              </div>
+              </div>
+              <div class="col">
+              <div class="card ">
+                  <img class="main-attraction-img" src="images/natural_bridge.jpg" class="card-img-top" alt="...">
+                  <div class="card-body main-attraction-body-div">
+                  <h5 class="card-title main-attraction-title ">Natural bridge </h5>
+                  <p class="card-text main-attraction-body">Natural bridge, also called natural arch, naturally created arch formation resembling a bridge. Its formation in Neil Island is a rock jutting out from the main wall with a giant hole in it created by the continuous lashing waves over the years.  In the far corner, another natural bridge formation is underway.</p>
+                  </div>
+              </div>
+              </div>
+          </div>
+         <a href="main-attraction.html"> <p class="read-more">Read More..</p></a>
+      </section>  
+<!-- MAIN ATTRACTIONS SECTION ENDS HERE -->
+
+<!-- TESTIMONIAL SECTION STARTS HERE -->
+
+<section id="testimonials" class="testimonials">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md 4">
+                <div class="single-box">
+                  <div class="img-text">
+                    <img class="testimonials-img" src="images/testimonials-img.png" alt="" srcset="">
+                    <h2>person1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md 4">
+                <div class="single-box">
+                  <div class="img-text">
+                    <img class="testimonials-img" src="images/testimonials-img.png" alt="" srcset="">
+                    <h2>person2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md 4">
+                <div class="single-box">
+                  <div class="img-text">
+                    <img class="testimonials-img" src="images/testimonials-img.png" alt="" srcset="">
+                    <h2>person3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-md 4">
+                <div class="single-box">
+                  <div class="img-text">
+                    <img class="testimonials-img" src="images/testimonials-img.png" alt="" srcset="">
+                    <h2>person4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md 4">
+                <div class="single-box">
+                  <div class="img-text">
+                    <img class="testimonials-img" src="images/testimonials-img.png" alt="" srcset="">
+                    <h2>person5</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md 4">
+                <div class="single-box">
+                  <div class="img-text">
+                    <img class="testimonials-img" src="images/testimonials-img.png" alt="" srcset="">
+                    <h2>person6</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL SECTION ENDS HERE -->
+<!-- QUERY BOX SECTION STARTS HERE -->
+
+<section id="query-box">
+  <div class="query-box">
+    <div class="row">
+      <div class="col-lg-6 query-box-imgdiv">
+        <img src="images/query1.png" alt="" srcset="">
+      </div>
+      <div class="col-lg-6  query-box-formdiv">  
+        <h1 class="query-box-heading">get in touch!</h1>
+        <form action="">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control query-form" id="floatingInput" placeholder="name@example.com">
+            <label class="query-label" for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-4">
+            <textarea class="form-control query-form" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label class="query-label" for="floatingTextarea2">Comments</label>
+          </div>
+          <a class="btn btn-primary btn-query" href="#" role="button">Link</a>
+        </form>
+      </div> 
+    </div>    
+  </div>
+
+  </div>
+
+</section>
+
+<!-- QUERY BOX SECTION ENDS HERE -->
+<!-- OUR ASSOCIATES SECTION STARTS HERE -->
+
+<section id="our-associates">
+  <div>
+    <h1 class="associates-heading">Our Associates</h1>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-2 our-associates">
+    <div class="col ">
+    <div class="card our-associates-card">
+        <img class="our-associates-img" src="images/dwipannita-sen.png"  alt="...">
+        <div class="our-associates-details">
+            <p>Dwipannita Sen</p>
+            <i class="fab fa-instagram icon"></i>
+            <i class="fab fa-facebook icon"></i>
+            <i class="fab fa-linkedin-in icon"></i>
+            <i class="fab fa-twitter icon"></i>
+        </div>
+    </div>
+  </div>
+
+
+    <div class="col">
+    <div class="card our-associates-card">
+        <img class="our-associates-img"  src="images/moyetri-roy.png"  alt="...">
+        <div class="our-associates-details">
+          <p>Moyetri Roy </p>
+          <i class="fab fa-instagram icon"></i>
+          <i class="fab fa-facebook icon"></i>
+          <i class="fab fa-linkedin-in icon"></i>
+          <i class="fab fa-twitter icon"></i>
+        </div>
+    </div>
+   
+    </div>
+
+
+    <div class="col">
+    <div class="card our-associates-card ">
+        <img class="our-associates-img" src="images/sohini-roy.png"  alt="...">
+        <div class="our-associates-details">
+          <p>Sohini Roy</p>
+          <i class="fab fa-instagram icon"></i>
+          <i class="fab fa-facebook icon"></i>
+          <i class="fab fa-linkedin-in icon"></i>
+          <i class="fab fa-twitter icon"></i>
+        </div>
+        
+    </div>
+    </div>
+    
+        </div>
+  
+</section>
+
+<!-- OUR ASSOCIATES SECTION ENDS HERE -->
+
+<!-- FOOTER STARTS HERE -->
+
+<section id="footer">
+  <div class="row">
+    <div class="col-lg-4 footer ">
+      <h3 class="about-heading">In The Main Section</h3>
+      <a class="main-section" href="">Home</a> <br>
+      <a class="main-section" href="">Services</a> <br>
+      <a class="main-section" href="">Main Attractions</a> <br>
+      <a class="main-section" href="">Packages</a> <br>
+      <a class="main-section" href="">Bookings</a>
+    </div>
+    <div class="col-lg-4 footer"> 
+      <p><i class="fas fa-map-marker-alt"></i>C - 81C, Sector - 8, Noida - 201301</p>
+      <p><i class="fas fa-envelope"></i>abc@gmail.com</p>
+      <p><i class="fas fa-phone-alt"></i>0123456789</p>
+    </div>
+    <div class="col-lg-4 footer">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER ENDS HERE -->
+
+
+<!-- COPYRIGHT SECTION STARTS HERE -->
+<section id="copyright">
+    <p class="copyright">@copyright paradise travels 2022</p>
+</section>
+
+<!-- COPYRIGHT SECTION ENDS HERE -->
+
+<script src="index.js"></script>
+
+<!-- jQuery link -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+<!-- Bootstrap JS link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" intgrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

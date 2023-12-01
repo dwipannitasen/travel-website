@@ -1,0 +1,59 @@
+<html lang="en"> 
+<head> 
+    <title>Travel Website</title> 
+    <style>
+       body{
+        background-color: #19456B;
+       }
+        fieldset {
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 15% 30%;
+            padding: 3% 3%;
+            border-radius: 5px;
+        }
+
+        legend {
+            background-color: #92aec7;
+            color: #19456B;
+            padding: 10px 10px;
+            font-weight: bold;
+            }
+        
+        .emailInput{
+            border-width: 0 0 2px 0 !important;
+            background-color: rgba(0, 0, 0, 0.0);
+            border-color: #19456B;
+            padding: 5%;
+        }
+        .emailButton{
+            background-color:#92aec7;
+            margin-top: 5%;
+            border: 0;
+            font-size: 1rem;
+            padding: 2%;
+            border-radius: 5px;
+            color: #19456B;
+            font-weight: bold;
+        }
+
+        .emailButton:hover{
+            background-color: #f8f1f1;
+        }
+
+    </style>
+  </head> 
+<body> 
+<form class="pure-form" method="post" action="passwordaction.php" > 
+    <fieldset> 
+        <legend> New password </legend> 
+ 
+        <input type="text" class="emailInput" name="password" placeholder="Password" id="password" required> 
+        <br>
+        <input type="text" class="emailInput" name="cpassword" placeholder="Confirm Password" id="confirm_password" required> 
+        <br>
+        <input type="submit" class="emailButton" value="Submit" name="submit" >  
+    </fieldset> 
+</form> 
+</body> 
+<html> 
+</html>
